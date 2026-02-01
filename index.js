@@ -97,7 +97,7 @@ client.on('error', (err) => {
 client.on('loggedOn', () => {
   console.log(`${client.steamID} - Successfully logged on`);
   client.setPersona(7); // invisible
-  const games = [730, 714010, 440, 3419430, 291550, 1938090, 1905180, 1275350, 2021910, 1665460, 666220, 2281730, 578080];
+  const games = [730, 714010, 440, 3419430, 291550, 1938090, 1905180, 1275350, 2021910, 70, 666220, 578080];
   client.gamesPlayed(games);
 });
 
